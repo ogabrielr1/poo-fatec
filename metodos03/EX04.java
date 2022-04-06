@@ -22,6 +22,8 @@ class EX04 {
         System.out.printf("Média aritmética: %.1f\n", dadosNotas[1]);
         System.out.printf("Maior nota: %.1f\n", dadosNotas[2]);
         System.out.printf("Menor nota: %.1f\n", dadosNotas[3]);
+
+        scanner.close();
     }
 
     public static double[] calculaDadosNotas(double[] notas) {
